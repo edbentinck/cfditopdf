@@ -1,6 +1,6 @@
 language: php
 
-php: ["7.0", "7.1", "7.2", "7.3", "7.4"]
+php: ["7.0", "7.1", "7.2", "7.3", "7.4", "8.0"]
 
 addons:
   apt:
@@ -9,8 +9,8 @@ addons:
 
 env:
   global:
-    - BUILD_COVERAGE_PHP_VERSION="7.4"
-    - BUILD_PHAR_PHP_VERSION="7.4"
+    - BUILD_COVERAGE_PHP_VERSION="8.0"
+    - BUILD_PHAR_PHP_VERSION="8.0"
     - BUILD_PHAR_OUTPUT="build/cfditopdf.phar"
     - XDEBUG_MODE=coverage
 
