@@ -15,9 +15,15 @@
         "source": "https://github.com/phpcfdi/cfditopdf",
         "issues": "https://github.com/phpcfdi/cfditopdf/issues"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/edbentinck/CfdiUtils"
+        }
+    ],
     "require": {
         "php": ">=7.0|^8.0",
-        "eclipxe/cfdiutils": "^2.11.0",
+        "eclipxe/cfdiutils": "dev-feature/laravel-9-support",
         "league/plates": "^3.3",
         "spipu/html2pdf": "master"
     },
